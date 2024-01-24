@@ -1,0 +1,42 @@
+table{
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+    align-content: center;
+}
+td,th{
+    border :2px solid #7783cc;
+    padding: 15px;
+}
+th{
+    font-family: "Engravers MT";
+    color: red;
+    font-size: 30px;
+    align-content: center;
+}
+td{
+    font-family: "Goudy Old Style" ;
+    color: #08917f;
+    font-size: 20px;
+    align-content: center;
+
+}
+h1{text-align: center}
+body {
+    background-color: chocolate;
+    background-image: url("../images/Supra Car.jpg") ;background-size: 100%;
+    background-repeat: round;
+}
+tr:nth-child(even){
+    background-color: cyan;
+}
+.FRUITS{
+    border: yellowgreen solid 25px;
+    text-align: revert;
+    padding: 25px;
+    font-size: 25px;
+    margin: 25px;
+    background-image: url("../images/mangoes.jpeg");
+        background-image: url("../images/Supra Car.jpg") ;background-size: 100%;
+
+}

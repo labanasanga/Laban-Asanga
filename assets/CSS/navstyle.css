@@ -1,0 +1,24 @@
+nav{
+    list-style-type: none;
+
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #1fa696;
+    padding: 0px;
+    margin: 0px;
+    ;background-color: #2196ab;
+    overflow: hidden;
+}
+.navbar a{color: white
+    ;font-size: 30px;
+;text-decoration: none
+;padding: 20px
+;display: block
+;text-align: center
+;background-color: #228dbb
+}
+
+.navbar a:hover{background-color: #57dcdc
+}
+.navbar li{float: left}

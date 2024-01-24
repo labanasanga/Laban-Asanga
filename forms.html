@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="assets/CSS/formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<style>
+    body{
+                    background-image: url("assets/images/computers.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+
+    }
+</style>
+<body>
+<h2><u>eMobilis Registration Form</u></h2>
+<hr>
+<form action="">
+
+    <label for="first name">First name</label><br>
+    <input type="text"id="first name"name="jina" required placeholder="INPUT NAME">
+
+    <br>
+    <label for="last name">Last name</label><br>
+    <input type="text"id="last name"name="jina"required placeholder="INPUT NAME">
+    <br>
+    <label for="email">email</label><br>
+    <input type="email"id="email"name="baruameme"required placeholder="INPUT EMAIL">
+    <br>
+    <label for="phone">Phone</label><br>
+    <input type="number"id="phone"name="nambari ya simu" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    <br>
+    <nav class="radio">
+    <label for="female">female</label><br>
+    <input type="radio"id="female"name="gender"><br>
+    <label for="male">male</label><br>
+    <input type="radio"id="male"name="gender"><br>
+    <label for="custom">custom</label><br>
+    <input type="radio"id="custom"name="gender"><br>
+        </nav>
+    <label for="course">course taken</label><br>
+
+    <select name="course" id="course">
+        <option value="react js">React Js</option>
+        <option value="Android">Android</option>
+        <option value="cyber security">Cyber security</option>
+        <option value="data science">Data science</option>
+    </select><br>
+    <label for="upload image">upload image</label><br>
+    <input type="file"id="upload image"><br>
+    <label for="dob">DOB</label><br>
+    <input type="date"id="dob"name="tarehe ya kuzaliwa">
+    <br>
+    <label for="pass">PASSWORD</label><br>
+    <input type="password"id="pass"name="passwordi"required placeholder="INPUT PASS">
+    <br>
+
+
+
+
+    <input type="submit"value="Register">
+</form>
+</body>
+</html>

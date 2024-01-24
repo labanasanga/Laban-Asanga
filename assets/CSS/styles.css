@@ -1,0 +1,33 @@
+.fruits{
+    border: 3px solid red;
+    text-align: center;
+    font-family: "Yu Gothic UI Light";
+    background-color: #e03c3c;
+    margin: 20px;
+    padding: 20px;
+    font-size: 28px;
+    background-image: url("../images/mangoes.jpeg");
+}
+.cars{
+    border: midnightblue solid 15px;
+    text-align: end;
+    margin: 15px;
+    padding: 15px;
+    font-size: 19px;
+    background-color: #4343c9;
+    background-image: url("../images/toyota.jpg");
+}
+.FRUITS{
+    border: yellowgreen solid 25px;
+    text-align: revert;
+    background-color: #b6b63d;
+    padding: 25px;
+    font-size: 25px;
+    margin: 25px;
+    background-image: url("../images/mangoes.jpeg");
+}
+#computers{border: teal solid 20px
+;background-image: url("../images/@narimandc.jpg")
+}
+body{
+}

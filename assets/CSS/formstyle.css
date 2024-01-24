@@ -1,0 +1,40 @@
+h2{
+    color: #6183e7;
+    background-color: #011317;
+    text-align: center;
+    padding: 40px;
+    font-family: "Microsoft YaHei UI Light";
+    font-size: 40px;
+}
+input , select{
+
+    background-color: #010b1c;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    box-align: center;
+    padding: 10px;
+    width: 60%;
+
+font-size: 20px}
+body{
+    background-image:url("assets/images/computers.jpeg");
+    background-color: #d58246;
+    align-content: center;
+    text-align: center;
+}
+label{
+    color: #09222f;
+    font-family: "Yu Gothic Medium";
+    font-size: 20px;
+    margin: 10px;
+    text-align: left;
+    background-color: cornflowerblue;
+}
+option{padding: 20px}
+.radio{
+    margin: 0px;
+}
+input {
+    transition: width 1s ease-in-out;
+}
